@@ -7,16 +7,16 @@
   
   <title>hexo | Lis</title>
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-  <meta name="description" content="initinit 123npm install hexo-cli -ghexo init blogFolderNamecd blogFolderName  to preview your blog in http:&#x2F;&#x2F;localhost:4000&#x2F; 1hexo s  create git repositryex:xlisyuan.github.io  在_config.yml 設定 # Site">
+  <meta name="description" content="initinit 123$ npm install hexo-cli -g$ hexo init blogFolderName$ cd blogFolderName  to preview your blog in http:&#x2F;&#x2F;localhost:4000&#x2F; 1$ hexo s  create git repositryex:xlisyuan.github.io  在_config.yml 設定">
 <meta property="og:type" content="article">
 <meta property="og:title" content="hexo">
 <meta property="og:url" content="https://xlisyuan.github.io/2020/07/27/hexo/index.html">
 <meta property="og:site_name" content="Lis">
-<meta property="og:description" content="initinit 123npm install hexo-cli -ghexo init blogFolderNamecd blogFolderName  to preview your blog in http:&#x2F;&#x2F;localhost:4000&#x2F; 1hexo s  create git repositryex:xlisyuan.github.io  在_config.yml 設定 # Site">
+<meta property="og:description" content="initinit 123$ npm install hexo-cli -g$ hexo init blogFolderName$ cd blogFolderName  to preview your blog in http:&#x2F;&#x2F;localhost:4000&#x2F; 1$ hexo s  create git repositryex:xlisyuan.github.io  在_config.yml 設定">
 <meta property="og:locale" content="en_US">
 <meta property="og:image" content="https://d33wubrfki0l68.cloudfront.net/6657ba50e702d84afb32fe846bed54fba1a77add/827ae/logo.svg">
 <meta property="article:published_time" content="2020-07-27T14:16:32.000Z">
-<meta property="article:modified_time" content="2020-07-27T16:05:49.901Z">
+<meta property="article:modified_time" content="2020-07-27T16:16:21.969Z">
 <meta property="article:author" content="Lis">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:image" content="https://d33wubrfki0l68.cloudfront.net/6657ba50e702d84afb32fe846bed54fba1a77add/827ae/logo.svg">
@@ -91,10 +91,10 @@
     <div class="article-entry" itemprop="articleBody">
       
         <h1 id="init"><a href="#init" class="headerlink" title="init"></a>init</h1><p>init</p>
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">npm install hexo-cli -g</span><br><span class="line">hexo init blogFolderName</span><br><span class="line">cd blogFolderName</span><br></pre></td></tr></table></figure>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">$ npm install hexo-cli -g</span><br><span class="line">$ hexo init blogFolderName</span><br><span class="line">$ cd blogFolderName</span><br></pre></td></tr></table></figure>
 
 <p>to preview your blog in <a href="http://localhost:4000/" target="_blank" rel="noopener">http://localhost:4000/</a></p>
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">hexo s</span><br></pre></td></tr></table></figure>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo s</span><br></pre></td></tr></table></figure>
 <hr>
 <p>create git repositry<br>ex:<br><code>xlisyuan.github.io</code></p>
 <hr>
@@ -104,14 +104,14 @@
 <p>在_config.yml 設定 # Deployment<br>ex:</p>
 <figure class="highlight yml"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line"><span class="attr">deploy:</span></span><br><span class="line">  <span class="attr">type:</span> <span class="string">git</span></span><br><span class="line">  <span class="attr">repo:</span> <span class="string">https://github.com/xlisyuan/xlisyuan.github.io.git</span></span><br><span class="line">  <span class="attr">branch:</span> <span class="string">master</span></span><br></pre></td></tr></table></figure>
 <p>to git</p>
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">npm install hexo-deployer-git --save</span><br></pre></td></tr></table></figure>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ npm install hexo-deployer-git --save</span><br></pre></td></tr></table></figure>
 
 <p>new post</p>
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">hexo new &quot;title&quot;</span><br></pre></td></tr></table></figure>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo new &quot;title&quot;</span><br></pre></td></tr></table></figure>
 
 <p>要做什麼直接動/source裡的檔案 (ex:刪除文章/更改內文)</p>
 <p>to deploy</p>
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">hexo clean</span><br><span class="line">hexo g (generate)</span><br><span class="line">hexo d (deploy)</span><br></pre></td></tr></table></figure>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">$ hexo clean</span><br><span class="line">$ hexo g (generate)</span><br><span class="line">$ hexo d (deploy)</span><br></pre></td></tr></table></figure>
 <hr>
 </br>
 
@@ -147,7 +147,7 @@
       
     </div>
     <footer class="article-footer">
-      <a data-url="https://xlisyuan.github.io/2020/07/27/hexo/" data-id="ckd4po09r0002qgiy0z1k3moc" class="article-share-link">Share</a>
+      <a data-url="https://xlisyuan.github.io/2020/07/27/hexo/" data-id="ckd4pusil0003c0iy8sw9bt7l" class="article-share-link">Share</a>
       
       
     </footer>
@@ -203,6 +203,10 @@
     <h3 class="widget-title">Recent Posts</h3>
     <div class="widget">
       <ul>
+        
+          <li>
+            <a href="/2020/07/28/LayaAir-basic/">LayaAir basic</a>
+          </li>
         
           <li>
             <a href="/2020/07/28/TypeScript-PixiJS-v5-Webpack-Spine-3-8/">TypeScript-PixiJS v5-Webpack-Spine 3.8</a>
